@@ -71,7 +71,7 @@ los diferentes elementos
   /* Standard sintaxis */
 }
 
-.boton {
+.bordes {
   border: 2px solid aquamarine;
 }
 
@@ -93,4 +93,11 @@ los diferentes elementos
 
 .centradoTexto {
   text-align: center;
+}
+
+figure img{
+  transition: transform 0.2s ease-in-out 0.05s;
+}
+figure img:hover {
+  transform: scale(1.4);
 }
