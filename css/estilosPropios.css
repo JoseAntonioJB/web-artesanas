@@ -1,0 +1,96 @@
+/*
+Hoja de estilos creada por José Antonio Jiménez
+*/
+
+/*
+marcos--> Esta parte define los distintos marcos o piezas que contienen
+los diferentes elementos
+*/
+
+.elemtFlexCentrado {
+  align-self: center;
+}
+
+.elemtFlexCentro {
+  align-items: center;
+}
+
+.elemtFlexEspaciados {
+  justify-content: space-around;
+}
+
+.elemtFlexTres {
+  flex: 3;
+}
+
+.elemtFlexUno {
+  flex: 1;
+}
+
+.marcoFlex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.5em;
+}
+
+/*
+colores--> Esta parte define los colores de los
+los diferentes elementos
+*/
+
+.colorP1 {
+  color: darkred;
+}
+
+.colorP2 {
+  color: rgb(0, 1, 89);
+}
+
+.flotaIzq {
+  float: left;
+}
+
+.fuenteMitadEm {
+  font-size: 0.7em;
+}
+
+.fuenteMasEm {
+  font-size: 1.2em;
+}
+
+.grad {
+  background: aquamarine;
+  /* Para navegadores que no soportan gradientes */
+  background: -webkit-linear-gradient(aquamarine, blue);
+  /* Para Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(aquamarine, blue);
+  /* Para Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(aquamarine, blue);
+  /* Para Firefox 3.6 to 15 */
+  background: linear-gradient(aquamarine, blue);
+  /* Standard sintaxis */
+}
+
+.boton {
+  border: 2px solid aquamarine;
+}
+
+.sombraCaja {
+  box-shadow: rgb(150, 150, 150) 7px 7px 7px;
+}
+
+.redondeoBorders {
+  border-radius: 20px;
+}
+
+.redondeoBorders1 {
+  border-radius: 10px;
+}
+
+.sombraTexto {
+  text-shadow: green 2px 2px 3px;
+}
+
+.centradoTexto {
+  text-align: center;
+}
