@@ -101,3 +101,13 @@ figure img{
 figure img:hover {
   transform: scale(1.4);
 }
+section{
+  margin: 0.5em;
+}
+
+.padeo {
+  padding: 1em;
+}
+.margen {
+  margin:3em;
+}
