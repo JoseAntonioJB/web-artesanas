@@ -98,11 +98,13 @@ los diferentes elementos
 figure img{
   transition: transform 0.2s ease-in-out 0.05s;
 }
-figure img:hover {
+nav figure img:hover {
   transform: scale(1.4);
 }
-section{
-  margin: 0.5em;
+section aside{
+  margin: 1em;
+  max-width: 60%;
+  float: left;
 }
 
 .padeo {
@@ -110,4 +112,9 @@ section{
 }
 .margen {
   margin:3em;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
