@@ -6,6 +6,18 @@ Hoja de estilos creada por José Antonio Jiménez
 marcos--> Esta parte define los distintos marcos o piezas que contienen
 los diferentes elementos
 */
+.fotofondo{
+  width: 100%;
+  height: 100%;
+  background-image:url("images/fondo-posits.jpg");
+}
+.centradoBody{
+  max-width: 900px;
+
+  margin-left : auto;
+  margin-right : auto;
+  padding : 0px;
+}
 
 .elemtFlexCentrado {
   align-self: center;
@@ -116,5 +128,10 @@ section aside{
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 5px;
+}
+.stickyabajo {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom:  5px;
 }
